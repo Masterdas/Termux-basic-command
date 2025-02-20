@@ -44,7 +44,7 @@
 - `du -sh <folder>` → Check folder size  
 
 
-## [~] Contact My:
+## [~] Contact Me:
 <h4 align="center"><a href="https://youtube.com/@appshaktibangla">YouTube Channel</a></h4>
 <h4 align="center"><a href="https://github.com/Masterdas?tab=repositories">GitHub</a></h4>
 <h4 align="center"><a href="https://t.me/masterdas000">Telegram</a></h4>
