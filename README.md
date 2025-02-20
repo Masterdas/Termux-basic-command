@@ -1,9 +1,9 @@
 ### **File & Directory Commands**  
-- ```ls``` → List files and directories  
-- ```ls -a``` → Show hidden files  
-- ```pwd``` → Show the current directory  
+- `ls` → List files and directories  
+- `ls -a` → Show hidden files  
+- `pwd` → Show the current directory  
 - `cd <directory>` → Change directory  
-- ```cd ..``` → Move to the previous directory  
+- `cd ..` → Move to the previous directory  
 - `mkdir <folder_name>` → Create a new folder  
 - `rm <file_name>` → Delete a file  
 - `rm -rf <folder_name>` → Delete a folder with all files  
@@ -15,7 +15,7 @@
 - `pkg upgrade` → Upgrade all packages  
 - `pkg install <package_name>` → Install a package  
 - `pkg uninstall <package_name>` → Remove a package  
-- ```pkg list-all``` → List all available packages  
+- `pkg list-all` → List all available packages  
 
 ### **Text & File Operations**  
 - `cat <file>` → Display file content  
@@ -24,9 +24,9 @@
 - `touch <file>` → Create an empty file  
 
 ### **User & System Info**  
-- ```whoami``` → Show the current username  
-- ```uname -a``` → Show system information  
-- ```termux-info``` → Show Termux system info  
+- `whoami` → Show the current username  
+- `uname -a` → Show system information  
+- `termux-info` → Show Termux system info  
 
 ### **Networking**  
 - `ping <website>` → Check network connection  
@@ -34,17 +34,17 @@
 - `wget <url>` → Download a file from the internet  
 
 ### **Process & Task Management**  
-- ```ps``` → Show running processes  
+- `ps` → Show running processes  
 - `kill <process_id>` → Kill a process  
-- ```top``` → Show real-time running processes  
+- `top` → Show real-time running processes  
 
 ### **Storage & Permissions**  
-- ```termux-setup-storage``` → Grant storage access  
-- ```df -h``` → Check available storage  
+- `termux-setup-storage` → Grant storage access  
+- `df -h` → Check available storage  
 - `du -sh <folder>` → Check folder size  
 
 
-## [~] Find Me on :
+## [~] Contact My:
 <h4 align="center"><a href="https://youtube.com/@appshaktibangla">YouTube Channel</a></h4>
 <h4 align="center"><a href="https://github.com/Masterdas?tab=repositories">GitHub</a></h4>
 <h4 align="center"><a href="https://t.me/masterdas000">Telegram</a></h4>
