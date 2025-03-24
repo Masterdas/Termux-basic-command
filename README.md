@@ -5,7 +5,7 @@
 - [Termux (F-Droid)](https://f-droid.org/packages/com.termux/)  
 - [Termux (GitHub Releases)](https://github.com/termux/termux-app/releases)  
 ---
-## **দরকারি প্যাকেজ ও তাদের কাজ:**  
+## **দরকারি প্যাকেজ ও প্যাকেজের কাজ কী:**  
 
 **1. git** — GitHub থেকে প্রোজেক্ট ক্লোন করতে।  
 ```
@@ -52,6 +52,7 @@ pkg install php
 ```
 pkg update && pkg upgrade -y && pkg install git wget curl nodejs python python3 openssh unzip zip nano php -y
 ```
+
 ### **File & Directory Commands**  
 - `ls` → List files and directories  
 - `ls -a` → Show hidden files  
