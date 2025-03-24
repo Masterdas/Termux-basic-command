@@ -1,7 +1,7 @@
 
 ---
 ## **Termux APK Download :**  
-- [Termux mod image (Telegram)](https://t.me/zerodark_mahadeb/8)  
+- [Termux (Telegram Image)](https://t.me/zerodark_mahadeb/8)  
 - [Termux (F-Droid)](https://f-droid.org/packages/com.termux/)  
 - [Termux (GitHub Releases)](https://github.com/termux/termux-app/releases)  
 ---
