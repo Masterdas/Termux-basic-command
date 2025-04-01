@@ -5,10 +5,12 @@
 - [Termux (F-Droid)](https://f-droid.org/packages/com.termux/)  
 - [Termux (GitHub Releases)](https://github.com/termux/termux-app/releases)  
 ---
-## **Termux Main Packages and Their Uses:**  
+## **Termux Main Packages and New Uses:**  
 
 
-** pkg update && pkg upgrade -y
+```
+pkg update && pkg upgrade -y
+```
 
 **1. git** — Used to clone projects from GitHub.  
 ```
