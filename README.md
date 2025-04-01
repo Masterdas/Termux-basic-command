@@ -5,52 +5,55 @@
 - [Termux (F-Droid)](https://f-droid.org/packages/com.termux/)  
 - [Termux (GitHub Releases)](https://github.com/termux/termux-app/releases)  
 ---
-## **দরকারি প্যাকেজ ও প্যাকেজের কাজ কী:**  
+## **Termux Main Packages and Their Uses:**  
 
-**1. git** — GitHub থেকে প্রোজেক্ট ক্লোন করতে।  
+
+** pkg update && pkg upgrade -y
+
+**1. git** — Used to clone projects from GitHub.  
 ```
 pkg install git
 ```
-**2. wget** — লিঙ্ক থেকে ফাইল ডাউনলোড করতে।  
+**2. wget** — Used to download files from a link.  
 ```
 pkg install wget
 ```
-**3. curl** — ওয়েবসাইট থেকে ডেটা আনার জন্য।  
+**3. curl** — Used to fetch data from websites.  
 ```
 pkg install curl
 ```
-**4. nodejs** — জাভাস্ক্রিপ্ট প্রোজেক্ট রান করতে।  
+**4. nodejs** — Required to run JavaScript projects.  
 ```
 pkg install nodejs
 ```
-**5. python** — পাইথন স্ক্রিপ্ট চালানোর জন্য।  
+**5. python** — Used to execute Python scripts.  
 ```
 pkg install python
 ```
-**6. openssh** — রিমোট লগইন/SSH কানেকশন করতে।  
-```
-pkg install openssh
-```
-**7. unzip** — ZIP ফাইল আনজিপ করতে।  
-```
-pkg install unzip
-```
-**8. zip** — ফাইল জিপ আকারে করতে।  
-```
-pkg install zip
-```
-**9. nano** — টেক্সট এডিটর।  
-```
-pkg install nano
-```
-**10. php** — পিএইচপি স্ক্রিপ্ট রান করতে।  
+**10. php** — Required to run PHP scripts.  
 ```
 pkg install php
 ```
----
-## **সব একসাথে ইনস্টল করতে চাইলে:**  
 ```
-pkg update && pkg upgrade -y && pkg install git wget curl nodejs python python3 openssh unzip zip nano php -y
+**7. unzip** — Used to extract ZIP files.  
+```
+pkg install unzip
+```
+**8. zip** — Used to compress files into a ZIP archive.  
+```
+pkg install zip
+```
+**9. nano** — A text editor for editing files.  
+```
+pkg install nano
+```
+**10. openssh** — Allows remote login/SSH connections.  
+```
+pkg install openssh
+---
+## **Termux One Codes Full Install pkg **  
+```
+pkg update && pkg upgrade -y && pkg install git wget curl nodejs python openssh unzip zip nano php -y
 ```
 
 ### **File & Directory Commands**  
@@ -102,7 +105,7 @@ pkg update && pkg upgrade -y && pkg install git wget curl nodejs python python3 
 ## 📌 Contact Me  
 <p align="center">
   
-<a href="https://youtube.com/@zerodarknexus">
+<a href="https://youtu.be/Knuj7DSNdIk">
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
 </a>  
 
