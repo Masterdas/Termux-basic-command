@@ -32,7 +32,8 @@ pkg install nodejs
 ```
 pkg install python
 ```
-**10. php** — Required to run PHP scripts.  
+**6. php** — Required to run PHP scripts.  
+```
 ```
 pkg install php
 ```
