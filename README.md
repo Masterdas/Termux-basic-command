@@ -34,9 +34,7 @@ pkg install python
 ```
 **6. php** — Required to run PHP scripts.  
 ```
-```
 pkg install php
-```
 ```
 **7. unzip** — Used to extract ZIP files.  
 ```
@@ -53,6 +51,7 @@ pkg install nano
 **10. openssh** — Allows remote login/SSH connections.  
 ```
 pkg install openssh
+```
 ---
 ## **Termux One Codes Full Install pkg **  
 ```
