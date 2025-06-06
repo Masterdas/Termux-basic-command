@@ -1,10 +1,19 @@
+  # Termux Basic Commands
 
+  This repository contains essential Termux commands for beginners. Learn how to navigate the Android terminal, install packages, and utilize Linux commands effectively.
+
+  ## Features
+  - Basic Linux commands
+  - Package management
+  - File system navigation
+  - Network utilities
 ---
 ## **Termux APK Download :**  
 - [Termux (Telegram Image)](https://t.me/zerodark_mahadeb/8)  
 - [Termux (F-Droid)](https://f-droid.org/packages/com.termux/)  
 - [Termux (GitHub Releases)](https://github.com/termux/termux-app/releases)  
 ---
+
 ## **Termux Main Packages and New Uses:**  
 
 
