@@ -1,0 +1,134 @@
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+Termux Full setup Guide and Shortcut and keys
+
+##### Termux All comments 
+https://github.com/Masterdas/Termux-basic-command/blob/main/README.md
+
+Termux background image 
+https://t.me/ZeroHackNexus/8
+
+YouTube Url: 
+https://youtube.com/@zerodarknexus
+
+WhatsApp Group Url: 
+https://chat.whatsapp.com/II35pNaN25rHqnUmqXK6ag
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+#####     Termux local host and packege    #####
+
+### Localhost Url :
+http://127.0.0.1:8080
+http://localhost:8080
+http://0.0.0.0:8080
+
+php -S localhost:8080
+
+python -m http.server 8080
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+#####     Termux install packages.    #####
+
+pkg update && pkg upgrade -y
+
+pkg install wget curl openssh git -y
+
+pkg install php
+
+pkg install nodejs
+
+apt install python python3 -y
+
+curl ifconfig.me           Ip address 
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+###   Termux Top banner Text lines  ###
+
+nano $PREFIX/etc/bash.bashrc
+
+
+echo -e "\e[1;92m         🔥   Welcome to \e[1;93mZeroDark Nexus\e[1;92m Terminal   🔥\n"
+
+###### Line 2
+
+# Override clear command
+ welcome_clear() {
+    command clear
+    echo -e "\033[1;92m         🔥   Welcome to \033[1;93mZeroDark Nexus\033[1;92m Terminal   🔥\033[0m\n"
+}
+welcome_clear
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+###   Termux add shortcut extra key ###
+
+nano ~/.termux/termux.properties  
+
+
+shortcut.create-session = ctrl + t
+extra-keys = [['TAB','//','-',':',';','"','_','>'], \
+              ['nano ','HOME','PASTE',' ','ENTER','UP','END','{}'], \
+              ['ALT','CTRL','cd ..','KEYBOARD','LEFT','DOWN','RIGHT','()']]
+
+
+termux-reload-settings  
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+###   Termux add shortcut commands ###
+
+nano .bashrc
+termux-reload-settings
+
+
+alias dl='cd /storage/emulated/0/Download/'
+
+alias py='python -m http.server'
+
+alias ll='ls -a'
+
+alias l='ls'
+
+alias c='clear'
+
+alias up='pkg update && pkg upgrade'
+
+alias firebase='cd /storage/emulated/0/firebase'
+
+alias yt='echo -e "\e[1;32m YouTube Url:\e[1;36m https://www.youtube.com/@zerodarknexus${RESET}"'
+
+alias gs='git status'
+
+alias q='exit'
+
+alias p='pwd'
+
+alias cl='clear && ls'
+
+# pkg install shortcut
+alias pi='pkg install'
+
+alias h='history'
+
+alias bin='cd $PREFIX/bin/'
+
+alias etc='cd $PREFIX/etc/'
+
+alias rc='source ~/.bashrc'
+
+alias cam='cd webcam && bash webcam.sh'
+
+alias termux='termux-reload-settings'
+
+alias 1='mpv /storage/emulated/0/audio.txt'
+
+alias 0='clear
+echo -e "\033[1;32m 
+ WW      WW EEEEEEE LL       CCCCC   OOOOO  MM    MM EEEEEEE
+ WW      WW EE      LL      CC    C OO   OO MMM  MMM EE    
+ WW   W  WW EEEEE   LL      CC      OO   OO MM MM MM EEEEE 
+  WW WWW WW EE      LL      CC    C OO   OO MM    MM EE      
+   WW   WW  EEEEEEE LLLLLLL  CCCCC   OOOO0  MM    MM EEEEEEE\n"
+echo -e  "\033[1;31m           ZeroDark Nexus \e[1;0mCreate by\033[1;36m Mahdeeb R..das"'
+
+
+
+alias ps='PS1="\033[1;36m┌─►[\[\033[1;31m\#\033[1;36m]───[\e[37m\]\T\[\e[36m\]]\033[1;36m─────\e[1;96m[\033[1;33mZeroDark Nexus\033[1;36m]\033[1;36m─────[\[\e[36m\]\e[\033[1;35m\W\[\033[1;36m\]]\n│\n\e[\033[1;36m└─►\e[1;97m$ "'
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
