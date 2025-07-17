@@ -50,12 +50,12 @@ echo -e "\e[1;92m         🔥   Welcome to \e[1;93mZeroDark Nexus\e[1;92m Termi
 ###### Line 2
 
 # Override clear command
- welcome_clear() {
-    command clear
-    echo -e "\033[1;92m         🔥   Welcome to \033[1;93mZeroDark Nexus\033[1;92m Terminal   🔥\033[0m\n"
+ banner() {
+  echo -e "\e[1;91m<━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━>"
+  echo -e "\e[1;92m	  🔥   Welcome to \e[1;93mZeroDark Nexus\e[1;92m Terminal   🔥"
+  echo -e "\e[1;91m<━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━>"
 }
-welcome_clear
-
+PROMPT_COMMAND='banner; CMD_COUNT=$((CMD_COUNT+1))'
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ###   Termux add shortcut extra key ###
 
@@ -89,8 +89,6 @@ alias c='clear'
 
 alias up='pkg update && pkg upgrade'
 
-alias firebase='cd /storage/emulated/0/firebase'
-
 alias yt='echo -e "\e[1;32m YouTube Url:\e[1;36m https://www.youtube.com/@zerodarknexus${RESET}"'
 
 alias gs='git status'
@@ -115,8 +113,6 @@ alias rc='source ~/.bashrc'
 alias cam='cd webcam && bash webcam.sh'
 
 alias termux='termux-reload-settings'
-
-alias 1='mpv /storage/emulated/0/audio.txt'
 
 alias 0='clear
 echo -e "\033[1;32m 
